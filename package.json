@@ -1,8 +1,8 @@
 {
   "name": "youtube-music-api",
-  "version": "1.0.5",
+  "version": "1.1",
   "description": "Unoffical Youtube Music API",
-  "homepage": "https://github.com/emresenyuva/youtube-music-api#readme",
+  "homepage": "https://github.com/openstreamorg/youtube-music-api#readme",
   "keywords": [
     "youtube music",
     "youtube music api",
@@ -18,12 +18,15 @@
   "main": "src/index.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/emresenyuva/youtube-music-api.git"
+    "url": "https://github.com/openstreamorg/youtube-music-api.git"
+  },
+  "publishConfig": {
+    "openstreamorg:registry": "https://npm.pkg.github.com"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Emre Şenyuva",
+  "author": ["Emre Şenyuva","OpenStream"],
   "license": "MIT",
   "dependencies": {
     "axios": ">=0.21.1",
